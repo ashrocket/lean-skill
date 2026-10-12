@@ -1,0 +1,10 @@
+{
+  "name": "lean",
+  "version": "0.1.0",
+  "description": "Lean mode: balance local compute, cloud capacity, and token cost, and keep going until the goal is verified done. /lean <goal>.",
+  "author": { "name": "Ashley Raiteri" },
+  "homepage": "https://ashley.raiteri.net/",
+  "repository": "https://github.com/ashrocket/lean-skill",
+  "license": "MIT",
+  "keywords": ["cost", "tokens", "delegation", "background-agents", "cloud", "codex", "antigravity", "jev"]
+}

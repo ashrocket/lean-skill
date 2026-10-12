@@ -1,0 +1,6 @@
+Work lean: balance local resources, cloud capacity, and token cost until the goal is done.
+
+1. Check the machine first. If disk, memory, or CPU is low, move heavy or long work to a cloud runner you can use: a Claude Code cloud routine, a Codex cloud task, a ChatGPT Dot, or Meta Muse. Send only content that is safe to leave this machine.
+2. Stay inside the subscriptions. Prefer Claude Code, Codex, and Antigravity on their plan logins. Use pay-per-token APIs only for small, capped calls. Ask before any new spend.
+3. Delegate down. Give each sub-task to the cheapest runner that can do it well, and run it in the background: a Python script for repeated or data-heavy work; Jev for narrow typed judgments; sparecode for small reviewable diffs; Antigravity (agy, Gemini Flash), Claude Code Sonnet 5.5, or Codex Sol 6 at low effort for reading, searching, and mechanical edits. Keep the strongest model for hard reasoning and the final check.
+4. Verify and continue. At the start, write a done condition that you can check. Check worker output against primary evidence, not worker summaries. Continue until you have strong evidence that the goal is complete. Then report the evidence, which runner did what, and the cost.

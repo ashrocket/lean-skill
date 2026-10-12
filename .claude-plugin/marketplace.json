@@ -1,0 +1,14 @@
+{
+  "name": "lean-skill",
+  "description": "Lean mode for AI coding agents: cheap runners first, cloud when the machine is tight, verified completion",
+  "owner": { "name": "Ashley Raiteri" },
+  "plugins": [
+    {
+      "name": "lean",
+      "description": "Lean mode. Say /lean <goal>: checks the machine, delegates down a cost ladder, stays inside subscriptions, and verifies before it reports done.",
+      "version": "0.1.0",
+      "source": "./",
+      "author": { "name": "Ashley Raiteri" }
+    }
+  ]
+}
