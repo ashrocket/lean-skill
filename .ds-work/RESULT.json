@@ -1,0 +1,1 @@
+{"project": "lean-skill", "verdict": "PASS", "validator": "PASS design-system: 15 tokens, 0 errors, 0 warnings", "contrast": "ok", "visual_review": "rendered", "fixed": ["Voice rule 5 now carries a real README line (README.md:55)", "Cover SVG derivation comment is 4 lines"], "waived": [], "open": []}

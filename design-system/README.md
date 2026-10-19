@@ -8,7 +8,7 @@ lean is a lean-mode skill for AI coding agents. It checks the machine, sends eac
 2. Name the action first. Example: "Type `/lean <goal>`."
 3. State the check, then the result. Example: "Checks the machine, then sends work to the cheapest runner."
 4. Give real numbers. Example: "Startup cost: 15,966 input tokens (one-word reply)."
-5. No hype. Do not promise savings that the repo does not measure.
+5. No hype. Do not promise savings that the repo does not measure. Example: "Each call has a fixed cost." (README.md:55)
 
 ## Colour
 
