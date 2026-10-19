@@ -1,0 +1,32 @@
+{
+  "project": "lean-skill",
+  "what": "A lean-mode skill for AI coding agents. It checks the machine, sends sub-tasks to the cheapest runner that can do them, and verifies the results. It ships as a Claude Code plugin and a Codex skill.",
+  "audience": "Developers who run AI coding agents and want lower token cost.",
+  "landing_job": "None. The repo has no landing page. The README is the front page and links to a blog post outside the repo.",
+  "surfaces": [
+    {"kind": "skill", "where": "skills/lean/SKILL.md"},
+    {"kind": "cli", "where": "skills/lean/scripts/lean_check.py, skills/lean/scripts/jev_choice.py"}
+  ],
+  "public_url": "https://ashley.raiteri.net/blog/2026-10-12-lean-mode/",
+  "brand_family": "",
+  "logo_files": [],
+  "existing_ds": {
+    "paths": [],
+    "has_readme_brandbook": false,
+    "has_tokens": false,
+    "has_cover_or_specimen": false,
+    "has_hero_pattern": false,
+    "has_logo_rules": false,
+    "published_artifact": ""
+  },
+  "identity": {
+    "coherent": false,
+    "palette": [],
+    "type": [],
+    "look": "No visual identity. The repo holds Markdown, Python scripts and JSON plugin manifests only."
+  },
+  "design_system_dir_conflict": "",
+  "classification": "new_needed",
+  "v2_case": "",
+  "notes": "Evidence JSON scanned 0 text files, so the digest is empty. Grep for hex colours, font-family, rgb(), CSS custom properties, html and svg found no visual markup. Cites: README.md:1 and skills/lean/SKILL.md:1. Blog link is at README.md:8. No design-system folder exists."
+}

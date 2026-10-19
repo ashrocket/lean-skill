@@ -1,0 +1,29 @@
+/* lean design system — generated from tokens.json */
+:root, [data-theme="light"] {
+  --floor: #f1f3f4;
+  --ink: #1b1f22;
+  --steel: #5c6670;
+  --kanban: #ffffff;
+  --andon-green: #1e7f4f;
+  --andon-amber: #c98a00;
+  --amber-ink: #8a5a00;
+  --andon-red: #c62828;
+}
+:root {
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 40px;
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-disc: 32px;
+  --font-display: "Barlow Semi Condensed", system-ui, sans-serif;
+  --font-body: "Barlow", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+.cover-name { font-family: var(--font-display); font-size: 96px; line-height: 96px; font-weight: 600; }
+.display { font-family: var(--font-display); font-size: 56px; line-height: 60px; font-weight: 600; }
+.heading { font-family: var(--font-display); font-size: 28px; line-height: 34px; font-weight: 600; }
+.body { font-family: var(--font-body); font-size: 18px; line-height: 28px; font-weight: 400; }
+.small { font-family: var(--font-body); font-size: 15px; line-height: 22px; font-weight: 400; }
+.command { font-family: var(--font-mono); font-size: 16px; line-height: 24px; font-weight: 400; }

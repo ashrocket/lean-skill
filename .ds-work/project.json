@@ -1,0 +1,11 @@
+{
+ "n": "lean-skill",
+ "target": "design-system",
+ "mode": "new",
+ "brief": "Concept: lean manufacturing andon lights and kanban cards (lean checks the machine and routes work to the cheapest runner). Colours: floor #f1f3f4 (ground), ink #1b1f22, steel #5c6670 (muted, check 4.5:1), kanban #ffffff (cards), andon-green #1e7f4f, andon-amber #c98a00 (non-text), amber-ink #8a5a00, andon-red #c62828. Type: headings \"Barlow Semi Condensed\" 600, body \"Barlow\" 400, commands \"IBM Plex Mono\". Wordmark: \"lean\" lowercase, Barlow Semi Condensed 600. Cover pattern: an andon stack - three discs in a column, plus satellites, built from radius tokens. Hero: \"/lean <goal>\", the README one-sentence purpose, action \"Install lean\"; link text for the blog post if README names it.",
+ "ruling": "Voice rule 5 gets a real example line from the lean README (quote it, cite it), or remove the rule. The Cover SVG derivation comment is exactly 4 lines.",
+ "defects": [
+  "/Users/ashrocket/ashcode/lean-skill/design-system/README.md, section ## Voice, rule 5 (\"No hype. Do not promise savings that the repo does not measure.\"): the rule has no example line from the product. SPEC section 2 requires each Voice rule to carry a real example line.",
+  "/Users/ashrocket/ashcode/lean-skill/design-system/components/Cover/preview.html, lines 6-14 of the inline SVG derivation comment (starting \"Derivation:\"): the comment runs about seven content lines. SPEC requires a 4-line derivation comment at the top of the SVG."
+ ]
+}

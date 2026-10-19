@@ -1,0 +1,87 @@
+<!-- @dsCard group="Landing" height=520 -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>lean hero</title>
+<link rel="stylesheet" href="../../tokens.css">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Barlow:wght@400&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--floor);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 28px;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: var(--space-3) var(--space-3) var(--space-4); }
+  .top { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--space-2); }
+  .mono-head { font-family: var(--font-mono); font-weight: 400; }
+  .andon { display: flex; gap: var(--space-1); align-items: center; }
+  .disc { width: 16px; height: 16px; border-radius: var(--radius-disc); display: inline-block; }
+  .hero { margin-top: var(--space-4); display: flex; flex-wrap: wrap; gap: var(--space-4); align-items: flex-start; }
+  .hero-copy { flex: 1 1 420px; min-width: 0; }
+  .hero-copy h1 { margin: 0 0 var(--space-2); overflow-wrap: anywhere; }
+  .sub { margin: 0 0 var(--space-3); max-width: 36em; }
+  .actions { display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; }
+  .button {
+    display: inline-block; background: var(--andon-green); color: var(--kanban);
+    padding: 12px 24px; border-radius: var(--radius-sm); text-decoration: none;
+  }
+  .textlink { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+  .card {
+    flex: 1 1 320px; min-width: 0; max-width: 480px; background: var(--kanban); color: var(--ink);
+    border: 1px solid var(--steel); border-radius: var(--radius-md); padding: var(--space-3);
+  }
+  .card ol { margin: 0; padding-left: 24px; }
+  .card li + li { margin-top: var(--space-1); }
+  .card .lbl { color: var(--steel); margin: 0 0 var(--space-2); }
+  .install {
+    margin: var(--space-2) 0 0; padding: var(--space-2); background: var(--floor); color: var(--ink);
+    border-radius: var(--radius-sm); white-space: pre; overflow-x: auto;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <span class="heading">lean</span>
+    <span class="andon" aria-hidden="true">
+      <span class="disc" style="background: var(--andon-red)"></span>
+      <span class="disc" style="background: var(--andon-amber)"></span>
+      <span class="disc" style="background: var(--andon-green)"></span>
+    </span>
+  </header>
+
+  <section class="hero">
+    <div class="hero-copy">
+      <h1 class="display"><span class="mono-head">/lean &lt;goal&gt;</span></h1>
+      <p class="body sub">Lean mode for AI coding agents.</p>
+      <div class="actions">
+        <a class="button small" href="#install">Install lean</a>
+        <span class="textlink small">Read the blog post</span>
+      </div>
+    </div>
+
+    <aside class="card" aria-label="How lean works">
+      <p class="small lbl">Each run</p>
+      <ol class="small">
+        <li>Check the machine: disk, memory pressure, load.</li>
+        <li>Give each sub-task to the cheapest runner that can do it well.</li>
+        <li>Verify the result against primary evidence, then continue.</li>
+      </ol>
+      <div id="install">
+        <p class="small lbl" style="margin-top: var(--space-3)">Install (Claude Code plugin)</p>
+        <pre class="command install">/plugin marketplace add ashrocket/lean-skill
+/plugin install lean@lean-skill
+/reload-plugins</pre>
+      </div>
+    </aside>
+  </section>
+</div>
+</body>
+</html>
