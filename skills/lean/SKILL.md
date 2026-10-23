@@ -66,6 +66,7 @@ Cloud runners cannot see local files, local sign-ins, or the keychain. Send only
 - `codex exec` and `codex cloud` use the ChatGPT plan when `codex login status` says ChatGPT.
 - Jev and hosted sparecode bill per token. Use them for small, capped calls (sparecode budget caps, `--max-budget-usd` for `claude -p`).
 - Ask the user before you add a paid key, raise a spending cap, or start a job that a plan will not cover.
+- Owner-approved exception through 2026-11-13: `~/ashcode/claude-credits/run-agent.mjs` may use the existing promotional API credit within an explicit per-run budget; brief it to use lean and crew-overseer, and keep its delegation in-session on that key.
 
 ## 5. Verify, then continue until done
 
